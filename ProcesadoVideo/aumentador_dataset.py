@@ -56,7 +56,8 @@ def process_dataset(root_dir, output_root, augment_count=5):
                 augment_video_consistently(video_path, out_dir, augment_count)
 
 # 🏁 Ejecutar
-input_dataset = "C:/Users/Raul/Documentos/GitHub/Lenguaje_labial/Dataset/data/convertidos_mp4"
-output_dataset = "C:/Users/Raul/Documentos/GitHub/Lenguaje_labial/Dataset/data/aumentado"
-
+# input_dataset = "C:/Users/Raul/Documentos/GitHub/Lenguaje_labial/Dataset/data/convertidos_mp4/dataset"
+# output_dataset = "C:/Users/Raul/Documentos/GitHub/Lenguaje_labial/Dataset/data/aumentado"
+input_dataset = "C:/Users/Raul/Documentos/GitHub/Lenguaje_labial/Dataset/data/inferencia/convertidos_mp4/dataset"
+output_dataset = "C:/Users/Raul/Documentos/GitHub/Lenguaje_labial/Dataset/data/inferencia/aumentado"
 process_dataset(input_dataset, output_dataset, augment_count=5)

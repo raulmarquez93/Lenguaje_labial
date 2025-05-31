@@ -3,9 +3,13 @@ import os
 from tqdm import tqdm
 
 # Ruta a los vídeos que quieres procesar
-video_dir = "C:/Users/Raul/Documentos/GitHub/Lenguaje_labial/Dataset/data/aumentado/dataset"
+# video_dir = "C:/Users/Raul/Documentos/GitHub/Lenguaje_labial/Dataset/data/aumentado"
+video_dir = "C:/Users/Raul/Documentos/GitHub/Lenguaje_labial/Dataset/data/prueba/convertidos_mp4"
+
 # Ruta donde guardarás los frames extraídos
-output_dir = "C:/Users/Raul/Documentos/GitHub/Lenguaje_labial/Dataset/data/frames_extraidos"
+# output_dir = "C:/Users/Raul/Documentos/GitHub/Lenguaje_labial/Dataset/data/frames_extraidos"
+output_dir = "C:/Users/Raul/Documentos/GitHub/Lenguaje_labial/Dataset/data/prueba/frames_extraidos_inferencia"
+
 
 os.makedirs(output_dir, exist_ok=True)
 
